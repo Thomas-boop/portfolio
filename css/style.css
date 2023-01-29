@@ -5,6 +5,7 @@
     box-sizing: border-box;
 }
 
+/* hero section start */
 
 .hero {
 
@@ -59,11 +60,17 @@ nav ul li a:hover {
     transition: .4s;
 }
 
+#click {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
 .content {
     position: absolute;
     top: 50%;
     left: 8%;
-    /* transform: translate(-50%); */
 
 }
 
@@ -87,7 +94,7 @@ h4 {
     font-size: 20px;
 }
 
-
+/* about section start */
 
 .about {
     width: 100%;
@@ -140,7 +147,14 @@ h4 {
     letter-spacing: 1px;
     line-height: 28px;
     font-size: 18px;
-    margin-bottom: 45px;
+    margin-bottom: 25px;
+}
+
+.about-text h3 {
+    margin-top: 20px;
+    margin-bottom: 25px;
+    letter-spacing: 2px;
+    font-size: 18px;
 }
 
 button {
@@ -159,6 +173,9 @@ button {
     border: 2px solid #f9004d;
     cursor: pointer;
 }
+
+
+
 
 /* My Projects */
 
