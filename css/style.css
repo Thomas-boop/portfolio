@@ -160,8 +160,9 @@ button {
     cursor: pointer;
 }
 
+/* My Projects */
 
-.services {
+.projects {
 
     background: #101010;
     width: 100%;
@@ -235,6 +236,8 @@ h5 {
     cursor: pointer;
 
 }
+
+
 
 .contact-me {
     width: 100%;
