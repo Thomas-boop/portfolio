@@ -255,6 +255,46 @@ h5 {
 
 }
 
+/* skills section start */
+
+.skills {
+
+    background: #101010;
+    width: 100%;
+    padding: 100px 0px;
+}
+
+.skillsContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+
+
+.skill-box {
+    height: 200px;
+    width: 335px;
+    padding: 20px 25px;
+    background: #191919;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+.skill-box i {
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    color: #f9004d;
+}
+
+
+/* Contact section */
+
 
 
 .contact-me {
