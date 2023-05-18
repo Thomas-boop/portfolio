@@ -30,7 +30,7 @@ https://thomas-boop.github.io/portfolio/
 
     Run the application:
 
-0.  Run the Liver server extension (optional)
+0.  click the index.html project then run the Liver server extension (optional)
 
     # manual instructions
 
