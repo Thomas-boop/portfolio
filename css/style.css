@@ -1,3 +1,134 @@
+/* Add a media query for mobile devices */
+@media (max-width: 767px) {
+
+    /* Adjust the padding and font-size in the hero section */
+    .hero nav {
+        padding-top: 16px;
+    }
+
+    .hero .logo {
+        font-size: 25px;
+        padding-right: 4em;
+    }
+
+    nav ul li {
+        padding: 150px 150px 150px 150px;
+        display: flex auto;
+    }
+
+    h1 {
+        font-size: 45px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    h4 {
+        font-size: 16px;
+    }
+
+    /* Adjust the padding and width in the about section */
+    .about {
+        padding: 50px;
+
+    }
+
+    #img {
+        height: auto;
+        width: 100%;
+        padding-right: 0px;
+        margin-bottom: 30px;
+    }
+
+    .about-text {
+        width: 50%;
+        text-align: left;
+    }
+
+    .about-text h2 {
+        font-size: 45px;
+    }
+
+    .about-text h5 {
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+
+    .about-text p {
+        font-size: 16px;
+        line-height: 24px;
+        margin-bottom: 20px;
+    }
+
+    .about-text h3 {
+        font-size: 16px;
+    }
+
+    /* Adjust the margin in the projects section */
+    .projects .title h2 {
+        margin: 10px auto;
+    }
+
+    /* Adjust the margin in the skills section */
+    .skillsContainer {
+        flex-wrap: wrap;
+    }
+
+    /* Skills section header*/
+    .title h2 {
+
+        display: flex;
+        padding-left: 90px;
+        text-align: center;
+        margin-left: auto;
+
+    }
+
+    .skill-box {
+        margin-bottom: 30px;
+    }
+
+    /* Adjust the height and margin in the contact section */
+    .contact-me {
+        height: auto;
+        padding: 50px 0px;
+    }
+
+    .contact-me p {
+        font-size: 25px;
+    }
+
+    .contact-me .button-two {
+        padding: 10px 20px;
+        font-size: 16px;
+    }
+
+    /* Adjust the font-size and margin in the footer section */
+    footer p:nth-child(1) {
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+
+    footer p:nth-child(2) {
+        font-size: 14px;
+        width: 90%;
+        margin-bottom: 30px;
+    }
+
+    .social a {
+        width: 35px;
+        height: 35px;
+        margin: 10px;
+        font-size: 16px;
+    }
+
+    .end {
+        font-size: 12px;
+    }
+}
+
+
 * {
     padding: 0;
     margin: 0;
